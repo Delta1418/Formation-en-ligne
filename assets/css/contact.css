@@ -1,0 +1,106 @@
+.main_formControle {
+    max-width: 1280px;
+    width: 100%;
+    margin: 100px;
+}
+
+.main_formControle-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.form_buttons .btn_form {
+    padding: 17px 28px;
+    border: none;
+    border-radius: 20px;
+    margin: auto 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: none;
+    border: 3px solid #f1f1f1;
+    transition: all .6s ease;
+}
+
+.form_buttons .btn_form:hover {
+    background: #f1f1f1;
+}
+
+.main_formControle-form .form_connection {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    position: relative;
+    transition: all .5s ease;
+}
+
+.main_formControle-form .form_inscription {
+    display: none;
+    flex-direction: column;
+    margin: 30px auto;
+    position: relative;
+    transition: all .5s ease;
+}
+
+.main_formControle-form input {
+    border: none;
+    width: 300px;
+    height: 30px;
+    background: #dce6cb;
+    border-bottom: 1px solid #333;
+    outline: none;
+    transition: all .6s ease;
+}
+
+.main_formControle-form label {
+    transform: translateY(30px);
+    padding: 10px 5px;
+    text-transform: lowercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: text;
+}
+
+.btn_validate {
+    margin-top: 30px;
+    border: none;
+    padding: 11px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #5baf81c5;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    transition: all .4s ease;
+}
+
+.btn_validate:hover {
+    background: #5baf81;
+}
+
+.noAccount {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #163f73;
+    cursor: pointer;
+    transition: all .6s ease;
+    text-decoration: underline;
+}
+
+.noAccount:hover {
+    transform: scale(1.08);
+    text-decoration: none;
+}
+
+

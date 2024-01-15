@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenLearning</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header_top-bar">
+            <div class="top_bar-logo">
+                <h1 class="logo-title">OpenLearning</h1>
+            </div>
+            
+            <div class="top_bar-search">
+                <input type="search" placeholder="Rechercher"></input>
+            </div>
+        </div>
+
+        <div class="header_bottom-bar">
+            <nav class="header_bottom-navbar">
+                <ul class="navbar_list">
+                    <li class="navbar_list-items"><a href="index.html">Home</a></li>
+                    <li class="navbar_list-items"><a href="formation.html">Formations</a></li>
+                    <li class="navbar_list-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     <!-- MAIN -->
+     <main class="main">
+        <div class="main_formControle">
+            <form class="main_formControle-form">
+                <div class="form_buttons">
+                    <button class="btn_form connection">Se connecter</button>
+                    <button class="btn_form inscription">S'inscrire</button>
+                </div>
+
+                <div class="form_connection">
+                    <label for="email">Votre addresse email</label>
+                    <input type="email" name="email" id="email" required> 
+                    <label for="password">Votre mot de passe</label>
+                    <input type="password" name="password" id="password" required>
+                    <button class="btn_validate">Valider</button>
+                    <p class="noAccount">j'ai pas de compte ?</p>
+                </div>
+
+                <div class="form_inscription">
+                    <label for="username">Nom d'utilisateur</label>
+                    <input type="text" name="username" id="name" required>
+                    <label for="email">Votre addresse email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="password">Votre mot de passe</label>
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Confirmation de mot de passe</label>
+                    <input type="password" name="password" id="password" required>
+                    <button class="btn_validate">Valider</button>
+                </div>
+
+            </form>
+        </div>
+     </main>
+
+     <footer class="footer">
+        <div class="footer_open foot">
+            <h5>OpenLearning</h5>
+            <a href="#">Qui somme nous ?</a>
+            <a href="#">Financements</a>
+            <a href="#">Experience de formation</a>
+            <a href="#">Forum</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="footer_opportunite foot">
+            <h5>opportunites</h5>
+            <a href="#">Nous rejoindre</a>
+            <a href="#">Devenir mentor</a>
+            <a href="#">Devenir coach carriere</a>
+            <h5>aide</h5>
+        </div>
+        <div class="footer_social-network foot">
+            <h5>Reseaux sociaux</h5>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+            <a href="#">Linkdine</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>
